@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <nav>
+        <a href="#home" class="logo">Soft Gift</a>
+        <div class="openMenu"><i class="idrisa"></i></div>
+        <ul class="main-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <div class="closeMenu"><i class="usmanu"></i></div>
+        </ul>
+    </nav>
+    <div id="combinor">
+        <div class="hero-image"></div><br><br>
+        <h2>Gifts for your loved ones</h2><br><br>
+        <h3>We can deliver</h3><br><br><br><br><br>
+        <button class="button" onclick="myFunction()">Surprise your lover!</button>
+    </div>
+    <div class="form-container">
+        <form class="form" id="form-containerrr">
+            <div class="center">
+            <h2>Log In</h2>
+            <div class="form-element">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter your email here" required></div>
+            <div class="form-element">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password here" required>
+            </div>
+         <div class="form-element">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <div class="form-element">
+                <button onclick="loginFunction()">Sign in</button>
+                <label for="new-user">New user? <a style="color: #222;" href="signup-form.html">Create account</a></label>
+           </div> </div></form></div>
+    </div><br><br>
+    <section id="table-element" class="section">
+            <table>
+                <caption>Products & services catalogue</caption>
+                <tr class="row">
+                 <th class="table-head">Products</th>
+                    <th class="table-head">Prices</th>
+                    <th class="table-head">Services</th>
+                    <th class="table-head">Approx. Time</th>
+                    <th class="table-head">Cost</th>
+                </tr>
+             <tr class="row"><td class="table-data"><em id="product-name">Customised Books</em> <select id="quantity">
+                    <option>Quantity</option>
+                    <option>1</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select></td>
+                <td class="table-data" id="price">N1000</td>
+                 <td class="table-data"><em id="product-name">Wedding Sourvenirs</em> <select id="quantity">
+                        <option>Quantity</option>
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                        <option>25</option>
+                        <option>30</option>
+                        <option>50</option>
+                        <option>100</option>
+                    </select></td>
+                     <td class="table-data" id="delivery">Preference <select>
+                        <option>Tap to choose</option>
+                        <option>Normal - 7 to 10 hrs</option>
+                        <option>Premium - 4 to 6 hrs</option>
+                        <option>Express - 1 to 3 hrs</option>
+                    </td>
+                    <td class="table-data" id="price">N1000</td></tr>
+                    </tr>
+            <tr class="row">
+                <td class="table-data"><em id="product-name">Customised Footwears</em> <select id="quantity">
+                    <option>Quantity</option>
+                    <option>1</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select></td>
+                <td class="table-data" id="price">N1000</td>
+                    <td class="table-data"><em id="product-name">Customised Frames</em> <select id="quantity">
+                        <option>Quantity</option>
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                        <option>25</option>
+                        <option>30</option>
+                        <option>50</option>
+                        <option>100</option>
+                    </select></td>
+                    
+                    <td class="table-data" id="delivery">Preference <select>
+                        <option>Tap to choose</option>
+                        <option>Normal - 7 to 10 hrs</option>
+                        <option>Premium - 4 to 6 hrs</option>
+                        <option>Express - 1 to 3 hrs</option>
+                    </td>
+                    <td class="table-data" id="price">N1000</td></tr>
+                 </tr>
+            <tr class="row">
+                <td class="table-data"><em id="product-name">Customised Materials</em> <select id="quanity">
+                    <option>Quantity</option>
+                    <option>1</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                    <option>25</option>
+                    <option>30</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select></td>
+                <td class="table-data" id="price">N1000</td>
+                    <td class="table-data"><em id="product-name">Chocolatess Boxes</em> <select>
+                        <option>Quantity</option>
+                        <option>1</option>
+                        <option>5</option>
+                        <option>10</option>
+                        <option>15</option>
+                        <option>20</option>
+                        <option>25</option>
+                        <option>30</option>
+                        <option>50</option>
+                        <option>100</option>
+                    </select></td>
+         <td class="table-data" id="delivery">Preference <select>
+                        <option>Tap to choose</option>
+                        <option>Normal - 7 to 10 hrs</option>
+                        <option>Premium - 4 to 6 hrs</option>
+                        <option>Express - 1 to 3 hrs</option>
+                    </td>
+                    <td class="table-data" id="price">N1000</td></tr>
+                 </tr>
+          </tr>
+        
+          <tr class="row"><td class="table-data"><em id="product-name">Customised Shortnickers</em> <select id="quantity">
+            <option>Quantity</option>
+            <option>1</option>
+            <option>5</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+            <option>30</option>
+            <option>50</option>
+            <option>100</option>
+        </select></td>
+        <td class="table-data" id="price">N1000</td>
+            <td class="table-data"><em id="product-name">Customised Shirts</em> <select id="quantity">
+                <option>Quantity</option>
+                <option>1</option>
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+                <option>20</option>
+                <option>25</option>
+                <option>30</option>
+                <option>50</option>
+                <option>100</option>
+            </select></td>
+            
+    <td class="table-data" id="delivery">Preference <select>
+    <option>Tap to choose</option>
+    <option>Normal - 7 to 10 hrs</option>
+    <option>Premium - 4 to 6 hrs</option>
+    <option>Express - 1 to 3 hrs</option>
+    </td>
+    <td class="table-data" id="price">N1000</td></tr>
+    
+    <tr class="row"><td class="table-data"><em id="product-name">Customised Leaflefts</em> <select id="quantity">
+        <option>Quantity</option>
+        <option>1</option>
+        <option>5</option>
+        <option>10</option>
+        <option>15</option>
+        <option>20</option>
+        <option>25</option>
+        <option>30</option>
+        <option>50</option>
+        <option>100</option>
+    </select></td>
+    <td class="table-data" id="price">N1000</td>
+        <td class="table-data"><em id="product-name">Customised Books</em> <select id="quantity">
+            <option>Quantity</option>
+            <option>1</option>
+            <option>5</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+            <option>30</option>
+            <option>50</option>
+            <option>100</option>
+        </select></td>
+        
+    <td class="table-data" id="delivery">Preference <select>
+    <option>Tap to choose</option>
+    <option>Normal - 7 to 10 hrs</option>
+    <option>Premium - 4 to 6 hrs</option>
+    <option>Express - 1 to 3 hrs</option>
+    </td>
+    <td class="table-data" id="price">N1000</td></tr></table></div></section>
+    <div>
+        <button id="estimate-calculator" class="button" onclick="myCalculator()">Calculate & Bookgit</button></div>
+        <section id="last-container">
+<div class="final-section">
+    <div><h2><a href="#product" style="color: #222;">Who We Are</a></h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta culpa sed vero suscipit, aliquam praesentium quas dolorem magnam debitis itaque nam voluptas adipisci cum? Voluptas illo eum aut non? Saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis nulla quasi aliquid error sequi, perspiciatis laboriosam, animi distinctio facilis amet eaque esse excepturi incidunt, natus quo tenetur expedita. A, mollitia Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum omnis architecto assumenda excepturi, officiis sunt recusandae minus quas accusamus enim magnam sint ad ducimus, corrupti illo tempora ut, laborum non?</p>
+</div></div>
+<div class="final-section">
+    <div><h2><a href="#product" style="color: #222;">What We Do</a></h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta culpa sed vero suscipit, aliquam praesentium quas dolorem magnam debitis itaque nam voluptas adipisci cum? Voluptas illo eum aut non? Saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis nulla quasi aliquid error sequi, perspiciatis laboriosam, animi distinctio facilis amet eaque esse excepturi incidunt, natus quo tenetur expedita. A, mollitia Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum omnis architecto assumenda excepturi, officiis sunt recusandae minus quas accusamus enim magnam sint ad ducimus, corrupti illo tempora ut, laborum non?</p>
+</div></div>
+
+<div class="final-section">
+    <div><h2><a href="#product" style="color: #222;">When We Do</a></h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta culpa sed vero suscipit, aliquam praesentium quas dolorem magnam debitis itaque nam voluptas adipisci cum? Voluptas illo eum aut non? Saepe. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis nulla quasi aliquid error sequi, perspiciatis laboriosam, animi distinctio facilis amet eaque esse excepturi incidunt, natus quo tenetur expedita. A, mollitia Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum omnis architecto assumenda excepturi, officiis sunt recusandae minus quas accusamus enim magnam sint ad ducimus, corrupti illo tempora ut, laborum non?</p>
+</div></div></section>
+
+<footer class="footer">
+    <address> Head Office: No. 004, Yusuf Maitama Sule Street, Abuja Qtrs, Gombe 760222</address>
+    <address> Main Branch: No. 567, London Bridge, London OA1 223</address>
+    <address> Branch Office: Off Ibrahim Taiwo road, Lekki Phase II, Lagos 730272</address>
+    <address> Branch Office: Galadima Road, Tarauni, Kano</address>
+</footer>
+
+<script src="myCommonFunctions.js">
+    document.bgColor = "red";
+</script>

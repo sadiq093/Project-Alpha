@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+nav {
+    background: #5995DA;
+    display: flex;
+    justify-content: space-between;
+
+}
+nav .logo {
+    color: #fff;
+    padding: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: khaki;
+
+}
+nav .main-menu {
+    display: flex;
+    list-style: none;
+}
+nav .main-menu li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem;
+}
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+a {
+    color: #fff;
+    font-weight: bolder;
+    margin: 5px;
+    font-size: 17px;
+}
+a:hover {
+    background-color: cadetblue;
+    color: black;
+}
+#combinor {
+    background-image: url("hero-image1.jpg");
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button {
+    background-color: #5995DA;
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section {
+    width: 100%;
+    padding-left: 65px;
+    display: block;
+}
+.section table caption {
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.form-container {
+    width: 100%;
+}
+.form-container .form {
+    background-color: antiquewhite;
+    width: 400px;
+    position: relative;
+    padding-left: 30px;
+    margin: 15px;
+    left: 34%;
+}
+.form-container .form h2 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.form-container .form-element {
+    margin: 15px 0px;
+}
+.form-container .form-element label {
+    font-size: 15px;
+    color: #222;
+}
+.form-container .form-element input[type="text"], .form-container .form-element input[type="password"] {
+    margin-top: 5px;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+.form-container .form-element button {
+    width: 95%;
+    color: #fff;
+    background: #5995DA;
+    border-radius: 10px;
+    height: 30px;
+}
+.section table {
+    padding-left: 150px;
+    margin-left: 35px;
+    left: 30%;
+}
+.section table .row {
+    border-style: none;
+}
+.section table .row th {
+    margin: 10px;
+    background: #5995DA;
+    padding: 5px;
+}
+.section table .table-data {
+    margin: 10px;
+    padding: 15px;
+}
+#estimate-calculator {
+    position: absolute;
+    left: 45%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+} button:hover {
+    background-color: cadetblue;
+}
+#last-container {
+    margin: 15px;
+    padding: 15px;
+    left: 20px;
+
+}
+.final-section {
+    padding-top: 20px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-flex;
+}
+.final-section p {
+    width: 410px;
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    margin: 7px;
+    padding: 10px;
+}
+.footer address {
+    margin: 5px;
+}
